@@ -11,9 +11,10 @@
 - python -m venv venv 创建虚拟环境：
 - .\venv\Scripts\activate 激活虚拟环境
 - pip install -r requirements.txt 安装所有依赖
-- 手动配置 config 目录下的 config.json 文件来自定义个人信息
+- 手动配置 config 目录下的 config.json 文件来自定义个人信息( Json 文件中的空格为不同项之间的间距，可自己调整)
 - 运行 `python main.py` 后输入嫖来的实验报告的存放路径
 - 静待文件存放目录下同名的 .docx 后缀的文件产出即可
+> PS: 因为大多数实验报告都是第二行为个人信息，因此这块替换后的个人信息就在第二行，如果格式不同可以自己魔改一下
 # 注意事项
 - 该脚本会将该目录下的所有 .doc 文件进行转换
 - 输入文件路径直接从文件资源管理器顶部复制即可(如 C:\Users\xxx\Desktop) 
